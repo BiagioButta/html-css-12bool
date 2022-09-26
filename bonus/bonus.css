@@ -1,0 +1,70 @@
+/* utility ****************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    /* border: 1px solid black; */
+    aspect-ratio: 1;
+}
+/* non capisco perchè se tolgo aspect-ratio tutto si rompe */
+
+:root{
+    --black: #060508;
+    --orange: #bb5105;
+    --lightorange: #cf742e;
+    --blue: #0464a8;
+    --grey: #7D7E81;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    margin-top: 1rem;
+}
+
+.bg-black{
+    background-color: var(--black);
+}
+
+.bg-orange{
+    background-color: var(--orange);
+}
+
+.bg-lightorange{
+    background-color: var(--lightorange);
+}
+
+.bg-grey{
+    background-color: var(--grey);
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+
+.d-none{
+    display: none;
+}
+
+.d-inline{
+    display: inline-block;
+}
+
+
+/* Effetto hover  **********/
+
+:hover .d-inline{
+    display: none;
+}
+
+:hover .d-none{
+    display: inline-block;
+}
+

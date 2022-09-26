@@ -1,0 +1,26 @@
+.debug{
+    border: 1px solid white;
+    min-height: 50px;
+}
+
+[class*="col-"]{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+.padding-bot{
+    padding-bottom: 15px;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+
+.padding{
+    padding: 10px 20px;
+}
